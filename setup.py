@@ -10,6 +10,7 @@ setup(
     license='MIT',
     packages=find_namespace_packages(),
     install_requires=['markdown'],
-    entry_points={'console_scripts': ['run-assistant = src.main:main']},
+    include_package_data=True,
+    entry_points={'console_scripts': ['run-assistant = src.main:run_bot']},
     zip_safe=False
 )
