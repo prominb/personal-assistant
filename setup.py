@@ -11,6 +11,6 @@ setup(
     packages=find_namespace_packages(),
     install_requires=['markdown'],
     include_package_data=True,
-    entry_points={'console_scripts': ['run-assistant = src.main:run_bot']},
+    entry_points={'console_scripts': ['run-assistant = personal-assistant:run_bot']},
     zip_safe=False
 )
